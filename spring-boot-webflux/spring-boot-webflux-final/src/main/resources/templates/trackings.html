@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<p><a href="/">Back</a></p>
+<h3>Tracking List</h3>
+
+<table>
+    <thead>
+    <tr>
+        <th>Flight Number</th>
+        <th>Status</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="t : ${trackings}">
+        <td th:text="${t.flightNumber}">...</td>
+        <td th:text="${t.status}">...</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
