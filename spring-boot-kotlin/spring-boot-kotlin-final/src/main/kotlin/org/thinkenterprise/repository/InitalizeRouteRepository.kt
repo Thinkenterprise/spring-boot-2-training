@@ -11,8 +11,8 @@ class InitalizeRouteRepository(private val repository: RouteRepository) {
 	fun init() {
 		
 		repository.save(Route(1,"MUC"));
-		repository.save(Route(1,"BER"));
-		repository.save(Route(1,"LA"));
+		repository.save(Route(2,"BER"));
+		repository.save(Route(3,"LA"));
 		
 	}
 	
