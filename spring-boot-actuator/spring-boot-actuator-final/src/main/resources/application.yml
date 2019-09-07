@@ -22,7 +22,14 @@ management:
     web.base-path: /thinkenterprise
     enabled: true
     web.exposure.include: "*"
+  metrics:
+    export:
+      datadog:
+        api-key: c0adfbeecad5c6c9f2c70bd56704e561
+        step: 30s  
 
 spring:
   main:
     allow-bean-definition-overriding: true
+
+    
