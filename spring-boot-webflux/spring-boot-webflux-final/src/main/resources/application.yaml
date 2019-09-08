@@ -1,4 +1,4 @@
 spring:
   thymeleaf:
-  		reactive: 
-  			max-chunk-size: 1000
+    reactive: 
+      max-chunk-size: 1000
