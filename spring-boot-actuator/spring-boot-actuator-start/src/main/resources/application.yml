@@ -16,6 +16,3 @@
 #
 # @author Michael Schaefer
 
-spring:
-  main:
-    allow-bean-definition-overriding: true

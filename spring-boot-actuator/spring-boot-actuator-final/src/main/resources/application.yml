@@ -20,16 +20,12 @@
 management:
   endpoints:
     web.base-path: /thinkenterprise
-    enabled: true
     web.exposure.include: "*"
   metrics:
     export:
       datadog:
-        api-key: c0adfbeecad5c6c9f2c70bd56704e561
+        api-key: 
         step: 30s  
 
-spring:
-  main:
-    allow-bean-definition-overriding: true
 
     
